@@ -1,0 +1,49 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    background-color: antiquewhite;
+}
+
+h1 {
+    margin-top: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:brown;
+}
+
+#gallery {
+    display: inline-block;
+    width: 80%;
+}
+
+figure {
+    margin: 20px;
+}
+
+#thumbnails {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+#thumbnails li {
+    cursor: pointer;
+}
+
+#thumbnails img {
+    filter: grayscale(100%);
+    transition: filter 0.3s ease;
+}
+
+#thumbnails img.active {
+    filter: grayscale(0%);
+
+}
+#arsh{
+    color: cornflowerblue;
+    font-size: smaller;
+
+}
